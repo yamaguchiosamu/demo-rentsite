@@ -1,0 +1,132 @@
+body {
+  background-color: #DDDDDD;
+  font-family: "Avenir Next";
+  width: 1424px;
+  height: 800px;
+
+}
+
+nav {
+  list-style: none;
+}
+
+div.global-nav {
+  background-color: #0C243F;
+  color: #fff;
+  height: 100px;
+}
+
+.global-nav li {
+  float: right;
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+
+/*検索条件*/
+.catalog {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.apartment {
+  background-color: #0C243F;
+  /* display: block; */
+  /* flex-direction: column; */
+  margin-bottom: 20px;
+}
+
+.apartment h1{
+  color: #FCFAF2;
+  height: 50px;
+  padding-top: 0px;
+  padding-bottom: auto;
+  text-align: center;
+}
+
+
+.apartment p {
+  color: #FCFAF2;
+  padding-top: auto;
+  padding-bottom: auto;
+  text-align: center
+}
+
+.catalog li {
+  list-style: none;
+}
+
+.map {
+  float: left;
+}
+
+.ggmap {
+  /* margin-top: 50px;
+  margin-right: auto; */
+  width: 1200px;
+  position: fixed;
+
+}
+
+/*検索条件*/
+.flex{
+    margin-right: auto;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.overlay-inner{
+    padding:10px 60px;
+    background-color:#FFF;
+    text-align:center;
+}
+.overlay-inner, p {
+    color: #0C243F;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.overlay-inner, h1  {
+    color: red;
+}
+select {
+  /* styling */
+    background-color: white;
+    border: thin solid #0C243F;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1em;
+    padding: 0.5em 3.5em 0.5em 1em;
+}
+#close-btn {
+    display:block;
+    margin:20px auto;
+    padding:10px 30px;
+    border: solid #0C243F 1px;
+    cursor: pointer;
+}
+#open-btn {
+    display: inline-block;
+    margin: 26px 0px;
+    padding: 10px 30px;
+    cursor: pointer;
+    position: fixed;
+}
+.is-hide {
+    display:none;
+}
+.search {
+    display:block;
+    margin:20px auto;
+    padding:10px 30px;
+    cursor: pointer;
+}

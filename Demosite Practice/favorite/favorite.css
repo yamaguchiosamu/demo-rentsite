@@ -1,0 +1,73 @@
+body {
+  background-color: #DDDDDD;
+  font-family: "Avenir Next";
+  width: 1424px;
+  height: 800px;
+}
+
+nav {
+  list-style: none;
+}
+
+div.global-nav {
+  background-color: #0C243F;
+  color: #fff;
+  height: 100px;
+}
+
+.global-nav li {
+  float: right;
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+
+.overlay-inner, p {
+    color: #0C243F;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.catalog {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.apartment {
+  background-color: #0C243F;
+  /* display: block; */
+  /* flex-direction: column; */
+  margin-bottom: 20px;
+}
+
+.apartment h1{
+  color: #FCFAF2;
+  font-size: 30px;
+  height: 50px;
+  padding-top: 0px;
+  padding-bottom: auto;
+  text-align: center;
+
+
+}
+
+
+.apartment p {
+  color: #FCFAF2;
+  padding-top: auto;
+  padding-bottom: auto;
+  text-align: center
+}
+
+.catalog li {
+  list-style: none;
+}

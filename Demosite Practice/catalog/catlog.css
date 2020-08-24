@@ -1,0 +1,113 @@
+body {
+  background-color: #FCFAF2;
+  font-family: monospace;
+}
+/* ナビゲーション */
+nav {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 40px;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: #0C243F;
+}
+nav ul li a:hover{
+color: red;
+}
+/* オーバーレイ */
+#overlay{
+    /*オーバーレイのCSS*/
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+.flex{
+    /*オーバーレイ内の要素を上下・左右中央揃え*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-inner{
+    padding:10px 60px;
+    background-color:#FFF;
+    text-align:center;
+}
+.overlay-inner, p {
+    color: #0C243F;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.overlay-inner, h1  {
+    color: red;
+}
+select {
+  /* styling */
+    background-color: white;
+    border: thin solid #0C243F;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1em;
+    padding: 0.5em 3.5em 0.5em 1em;
+}
+#close-btn {
+    display:block;
+    margin:20px auto;
+    padding:10px 30px;
+    border: solid #0C243F 1px;
+    cursor: pointer;
+}
+#open-btn {
+    display: inline-block;
+    margin: 26px 0px;
+    padding: 10px 30px;
+    cursor: pointer;
+    position: fixed;
+}
+.is-hide {
+    display:none;
+}
+.search {
+    display:block;
+    margin:20px auto;
+    padding:10px 30px;
+    cursor: pointer;
+}
+/* 物件詳細一覧 */
+.catalog {
+  margin-left: 50px;
+  display: inline-block;
+}
+.apartment {
+  background-color: #0C243F;
+}
+.apartment, h1, p {
+  color: #FCFAF2;
+}
+.catalog li {
+  list-style: none;
+}
+.catalog img {
+  margin-top: 20px;
+}
+#map-canvas {
+	width: 600px ;
+	height: 600px ;
+  float: right;
+  margin: 35px 80px;
+}
